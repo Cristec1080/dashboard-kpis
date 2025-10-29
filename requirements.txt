@@ -1,2 +1,4 @@
-# Instalar las bibliotecas necesarias
-!pip install streamlit pandas pyngrok plotly openpyxl
+streamlit
+pandas
+plotly
+openpyxl

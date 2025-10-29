@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -141,4 +140,5 @@ st.markdown("---")
 # --- Tabla de Datos ---
 st.header("Tu Información (Filtrada)")
 st.write(f"Mostrando {len(df_filtered)} filas de las {len(df_original)} originales.")
+
 st.dataframe(df_filtered)
